@@ -1,0 +1,11 @@
+1. git init
+
+2. git branch -M main
+
+3.git remote add origin https://github.com/mrunalibagal9229/Python_practice.git
+
+4. git add .
+
+5. git commit -m "python practice session"
+
+6. git push -u origin main

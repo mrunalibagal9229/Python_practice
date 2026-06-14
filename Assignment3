@@ -1,0 +1,187 @@
+# Check if Number is Positive or Negative
+# num = int(input("Enter a number: "))
+
+# if num > 0:
+#     print("Positive Number")
+# elif num < 0:
+#     print("Negative Number")
+# else:
+#     print("Zero")
+
+
+#     Check Whether Alphabet is Vowel or Consonant
+# ch = input("Enter an alphabet: ").lower()
+
+# if ch in ['a', 'e', 'i', 'o', 'u']:
+#     print("Vowel")
+# else:
+#     print("Consonant")
+
+
+#     Check Whether Triangle is Valid Using Angles
+# a = float(input("Enter first angle: "))
+# b = float(input("Enter second angle: "))
+# c = float(input("Enter third angle: "))
+
+# if a + b + c == 180:
+#     print("Valid Triangle")
+# else:
+#     print("Invalid Triangle")
+
+
+#     Check Whether Triangle is Valid Using Sides
+# a = float(input("Enter first side: "))
+# b = float(input("Enter second side: "))
+# c = float(input("Enter third side: "))
+
+# if (a + b > c) and (a + c > b) and (b + c > a):
+#     print("Valid Triangle")
+# else:
+#     print("Invalid Triangle")
+
+
+#    Check Triangle Type
+# a = float(input("Enter first side: "))
+# b = float(input("Enter second side: "))
+# c = float(input("Enter third side: "))
+
+# if a == b == c:
+#     print("Equilateral Triangle")
+# elif a == b or b == c or a == c:
+#     print("Isosceles Triangle")
+# else:
+#     print("Scalene Triangle")
+
+
+#      Calculate Profit or Loss
+# cp = float(input("Enter Cost Price: "))
+# sp = float(input("Enter Selling Price: "))
+
+# if sp > cp:
+#     print("Profit =", sp - cp)
+# elif cp > sp:
+#     print("Loss =", cp - sp)
+# else:
+#     print("No Profit No Loss")
+
+
+#     Check UserID and Password
+# userid = input("Enter User ID: ")
+# password = input("Enter Password: ")
+
+# if userid == "admin" and password == "1234":
+#     print("Login Successful")
+# else:
+#     print("Invalid User ID or Password")
+
+
+#     UserID, Password and CAPTCHA Verification
+# import random
+
+# userid = input("Enter User ID: ")
+# password = input("Enter Password: ")
+
+# if userid == "admin" and password == "1234":
+#     captcha = random.randint(1000, 9999)
+#     print("Captcha:", captcha)
+
+#     user_captcha = int(input("Enter the captcha: "))
+
+#     if user_captcha == captcha:
+#         print("Login Successful")
+#     else:
+#         print("Captcha Verification Failed")
+# else:
+#     print("Invalid User ID or Password")
+
+
+#     Display Grade Based on 5 Subject Marks
+# total = 0
+
+# for i in range(1, 6):
+#     marks = float(input(f"Enter marks of Subject {i}: "))
+#     total += marks
+
+# percentage = total / 5
+
+# print("Percentage =", percentage)
+
+# if percentage >= 75:
+#     print("Distinction")
+# elif percentage >= 60:
+#     print("First Class")
+# elif percentage >= 50:
+#     print("Second Class")
+# elif percentage >= 35:
+#     print("Pass Class")
+# else:
+#     print("Fail")
+
+
+
+#   Check Marriage Eligibility
+# gender = input("Enter Gender (male/female): ").lower()
+# age = int(input("Enter Age: "))
+
+# if (gender == "male" and age >= 21) or (gender == "female" and age >= 18):
+#     print("Eligible for Marriage")
+# else:
+  
+#   print("Not Eligible for Marriage")  
+
+
+#   Calculate Total Ticket Amount
+# ticket_price = float(input("Enter Ticket Price: "))
+# total_amount = 0
+
+# for i in range(1, 6):
+#     age = int(input(f"Enter age of person {i}: "))
+
+#     if age < 12:
+#         amount = ticket_price - (ticket_price * 0.30)
+#     elif age > 59:
+#         amount = ticket_price - (ticket_price * 0.50)
+#     else:
+#         amount = ticket_price
+
+#     total_amount += amount
+
+# print("Total Ticket Amount =", total_amount)
+
+
+# Check Whether 3-Digit Number is Palindrome
+# num = int(input("Enter a three-digit number: "))
+
+# digit1 = num // 100
+# digit2 = (num // 10) % 10
+# digit3 = num % 10
+
+# reverse = digit3 * 100 + digit2 * 10 + digit1
+
+# if num == reverse:
+#     print("Palindrome Number")
+# else:
+#     print("Not a Palindrome Number")
+
+
+#     Calculate Electricity Bill
+# units = int(input("Enter electricity units consumed: "))
+
+# bill = 0
+
+# if units <= 50:
+#     bill = units * 0.50
+
+# elif units <= 150:
+#     bill = (50 * 0.50) + ((units - 50) * 0.75)
+
+# elif units <= 250:
+#     bill = (50 * 0.50) + (100 * 0.75) + ((units - 150) * 1.20)
+
+# else:
+#     bill = (50 * 0.50) + (100 * 0.75) + (100 * 1.20) + ((units - 250) * 1.50)
+
+# surcharge = bill * 0.20
+# total_bill = bill + surcharge
+
+# print("Electricity Bill =", total_bill)
