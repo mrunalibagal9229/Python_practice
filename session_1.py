@@ -14,9 +14,14 @@
 
 #SI=principle amount*rate of intrest*time /100
 
-amount=100000
-r=10
-t=3
-SI=amount*t*r/100
+# amount=100000
+# r=10
+# t=3
+# SI=amount*t*r/100
 
-print("simple intrest is:",SI)
+# print("simple intrest is:",SI)
+
+
+
+
+
